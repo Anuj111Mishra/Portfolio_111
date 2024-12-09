@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #333;
+    --background-color: #f4f4f4;
+    --text-color: #222;
+    --font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .navbar a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .about,
+  .skills {
+    background: #fff;
+  }
+  
+  .projects {
+    background: var(--primary-color);
+    color: #fff;
+  }
+  
+  .project-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background: #fff;
+    color: var(--text-color);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 300px;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 20px;
+  }
+  
+  .contact .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .contact .btn:hover {
+    background: #3a8f40;
+  }
+  
+  .footer {
+    background: var(--secondary-color);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
